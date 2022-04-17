@@ -1,0 +1,44 @@
+.LoginPanel{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    top: 0;
+    background-color: rgba($color: #000000, $alpha: 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .LoginForm{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 500px;
+        height: 300px;
+        background-color: #fff;
+        border-radius: 10px;
+        background-repeat: no-repeat;
+        background-position: 0 100%,100% 100%;
+        background-size: 25%;
+        background-image: url('../../assets/bilibili/22.png'),url('../../assets/bilibili//33.png');
+        .LoginTitle{
+            font-size: 2.5rem;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .LoginBtnGroup{
+            width: 200px;
+            margin: 35px auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        .LoginForm_close{
+            position: absolute;
+            right: 20px;
+            top: 10px;
+        }
+        .info{
+            width: 200px;
+        }
+    }
+}

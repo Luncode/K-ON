@@ -1,0 +1,19 @@
+.menuItem{
+    color: #ffffff;
+    font-size: 14px;
+    margin: 0 10px;
+    cursor: pointer;
+    user-select: none;
+}
+.menuItem:hover{
+    animation: jump .5s;
+}
+
+@keyframes jump {
+    0%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
